@@ -13,3 +13,26 @@ Here's a possible breakdown of the app's functionality:
 5. Notifications: Implement a notification system that reminds the user of upcoming return deadlines and any required actions, such as printing a shipping label. Use JavaScript and a notification library like Toast or Noty to display the notifications.
 
 Building this app will require you to use JavaScript to manipulate data, handle user input, and display information on the screen. It will also involve integrating with external APIs and libraries, which can help you gain experience working with third-party services.
+
+### Rough Lesson Plan
+Here's a rough lesson plan we can follow to build out the app:
+
+##### Lesson 1
+Setting up the development environment: We'll start by setting up the development environment, which includes installing any necessary software and tools, such as Node.js, NPM, and your text editor of choice. We'll also create a new project directory and initialize a new Node.js project.
+
+##### Lesson 2
+Building the user authentication system: We'll create a user authentication system that allows users to securely sign in to the app using their email and password. We can use a library like Passport.js to handle user authentication and store user data in a database.
+
+##### Lesson 3
+Integrating with the user's email account: We'll integrate the app with the user's email account using an API like Google's Gmail API or Microsoft's Outlook REST API. We'll use JavaScript to retrieve the necessary information from the user's emails, such as the retailer name, return deadline, and shipping provider.
+
+##### Lesson 4
+Parsing email data and displaying a list of returns: We'll parse the retrieved email data and extract the relevant information, such as the retailer name, return deadline, and shipping provider. We'll use JavaScript to process the data and generate a list of ongoing and completed returns. We'll also build a user interface that displays the list of returns in a clear and concise manner.
+
+##### Lesson 5
+Adding notifications and reminders: We'll implement a notification system that reminds the user of upcoming return deadlines and any required actions, such as printing a shipping label. We'll use JavaScript and a notification library like Toast or Noty to display the notifications.
+
+##### Lesson 6
+Deploying the app: Finally, we'll deploy the app to a web host like Heroku or Vercel to make it accessible to users.
+
+We can work on each of these steps together in our regular sessions, providing explanations, examples, and exercises to reinforce your learning and help you apply what you've learned to the project. We can also break down each step into smaller tasks and track them using GitHub's Issues feature, which will help us stay organized and on track.
